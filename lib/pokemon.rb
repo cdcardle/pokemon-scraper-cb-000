@@ -3,6 +3,7 @@ class Pokemon
   def intialize(name, type, db)
     self.name = name
     self.type = type
+    self.db = db
   end
 
   def self.save
