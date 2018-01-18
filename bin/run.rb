@@ -4,4 +4,4 @@ Scraper.new(@db).scrape
 
 all_pokemon = @db.execute("SELECT * FROM pokemon;")
 
-Pokemon.new("Pikachu", "Lightning", @db)
+# test out your code here!
